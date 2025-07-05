@@ -458,7 +458,7 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "fb1-2"
+#line 1 "fb1-2.l"
 #line 462 "lex.yy.c"
 
 #define INITIAL 0
@@ -676,7 +676,7 @@ YY_DECL
 		}
 
 	{
-#line 1 "fb1-2"
+#line 1 "fb1-2.l"
 
 #line 681 "lex.yy.c"
 
@@ -737,37 +737,37 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 2 "fb1-2"
+#line 2 "fb1-2.l"
 { printf("color"); }
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 3 "fb1-2"
+#line 3 "fb1-2.l"
 { printf("flavor"); }
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 4 "fb1-2"
+#line 4 "fb1-2.l"
 { printf("smart"); }
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 5 "fb1-2"
+#line 5 "fb1-2.l"
 { printf("elegant"); }
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 6 "fb1-2"
+#line 6 "fb1-2.l"
 { printf("liberal"); }
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 7 "fb1-2"
+#line 7 "fb1-2.l"
 { printf("%s",yytext); }
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 8 "fb1-2"
+#line 8 "fb1-2.l"
 ECHO;
 	YY_BREAK
 #line 773 "lex.yy.c"
@@ -1775,6 +1775,6 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 8 "fb1-2"
+#line 8 "fb1-2.l"
 
 
